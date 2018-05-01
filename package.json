@@ -5,7 +5,8 @@
   "author": "Aaron Sisler",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack -p --env production",
+    "build:dev": "webpack",
     "devserver": "webpack-dev-server",
     "serve": "live-server public/"
   },
