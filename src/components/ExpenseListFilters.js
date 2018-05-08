@@ -24,7 +24,7 @@ class ExpenseListFilters extends React.Component {
 
     onSortChange = e => {
         if (e.target.value === 'date') {
-            this.props.sortByDate();
+            return this.props.sortByDate();
         }
         this.props.sortByAmount();
     }
