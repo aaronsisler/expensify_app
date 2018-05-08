@@ -1,11 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%;
 }
 
 body {
-    font-size: $mSize;
+    color: $darkGrey;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $medium;
+    line-height: 1.6;
 }
 
-.is-active{
+.is-active {
     font-weight: bold;
 }
