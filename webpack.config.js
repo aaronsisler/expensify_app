@@ -12,7 +12,7 @@ module.exports = (env) => {
             publicPath: '/dist/'
         },
         devtool: isProduction ? 'source-map' : 'inline-source-map',
-        entry: './src/app.js',
+        entry: ['babel-polyfill','./src/app.js'],
         module: {
             rules: [{
                 loader: 'babel-loader',
